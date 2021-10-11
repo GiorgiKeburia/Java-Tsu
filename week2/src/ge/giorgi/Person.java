@@ -4,9 +4,7 @@ public class Person {
     String name;
     int age;
 
-    public Person(){
-
-    }
+    public Person(){}
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
@@ -29,9 +27,7 @@ public class Person {
         StringBuilder myStr = new StringBuilder();
         for (int i = 0; i < height; i++){
             myStr.append(" ".repeat(height - 1));
-            ;
             myStr.append(String.valueOf(symbol).repeat(i + 1));
-            ;
             myStr.append('\n');
         }
         return myStr.toString();
